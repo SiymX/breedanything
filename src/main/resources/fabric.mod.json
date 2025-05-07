@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "breedanythingnew",
+  "version": "${version}",
+  "name": "BreedAnythingNew",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/breedanythingnew/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.siym.breedanythingnew.client.BreedanythingnewClient"
+    ],
+    "main": [
+      "com.siym.breedanythingnew.Breedanythingnew"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
