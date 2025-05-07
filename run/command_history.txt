@@ -1,8 +1,0 @@
-/breedstop
-/kill
-/breedstop
-/time set day
-/sneezestop
-/gamerule keepInventory true
-/gamemode survival
-/sneezestop
