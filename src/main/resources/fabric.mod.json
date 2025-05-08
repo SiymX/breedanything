@@ -10,13 +10,14 @@
   "icon": "assets/breedanythingnew/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.siym.breedanythingnew.client.BreedanythingnewClient"
-    ],
-    "main": [
-      "com.siym.breedanythingnew.Breedanythingnew"
-    ]
+    "main": [ "com.siym.breedanythingnew.Breedanythingnew" ],
+    "client": [ "com.siym.breedanythingnew.client.BreedanythingnewClient" ]
   },
+
+  "mixins": [
+    "breedanythingnew.mixins.json"
+
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

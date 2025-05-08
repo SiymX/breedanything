@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.siym.breedanythingnew.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixin.breedanythingnew.refmap.json",
+  "mixins": [
+    "EntityAccessor"
+
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

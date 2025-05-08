@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="defaultObfuscationEnv" value="named:intermediary" />
+        <option name="inMapFileNamedIntermediary" value="C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.client.tiny" />
+        <option name="outRefMapFile" value="D:\IJD\BreedAnythingNew\build\classes\java\client\client-mixin.breedanythingnew.refmap.json" />
+        <option name="quiet" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/6d1c8bf4c28e697f472a83bd6add76ec4951734/mixin-0.8.5-processor.jar" />
+        </processorPath>
+        <module name="BreedAnythingNew.client" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="defaultObfuscationEnv" value="named:intermediary" />
+        <option name="inMapFileNamedIntermediary" value="C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.main.tiny" />
+        <option name="outRefMapFile" value="D:\IJD\BreedAnythingNew\build\classes\java\main\mixin.breedanythingnew.refmap.json" />
+        <option name="quiet" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/6d1c8bf4c28e697f472a83bd6add76ec4951734/mixin-0.8.5-processor.jar" />
+        </processorPath>
+        <module name="BreedAnythingNew.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\client\client-BreedAnythingNew-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.client.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\client\client-mixin.breedanythingnew.refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.client.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="BreedAnythingNew.main" options="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\main\BreedAnythingNew-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
-      <module name="BreedAnythingNew.test" options="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\test\test-BreedAnythingNew-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+      <module name="BreedAnythingNew.main" options="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\main\mixin.breedanythingnew.refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+      <module name="BreedAnythingNew.test" options="-AoutRefMapFile=D:\IJD\BreedAnythingNew\build\classes\java\test\test-mixin.breedanythingnew.refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=D:\IJD\BreedAnythingNew\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\Sayeem\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
     </option>
   </component>
 </project>

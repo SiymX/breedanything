@@ -1,24 +1,60 @@
 # 🧬 BreedAnything Mod
 
-> A cursed Minecraft mod where you breed with Anything. Chaos ensured.
+> A chaotic Minecraft mod where you can breed with anything — pigs, TNT, pearls, and more. Unhinged? Absolutely.
 
 ![License](https://img.shields.io/github/license/SiymX/breedanything)
 ![Mod Version](https://img.shields.io/badge/version-1.0.0-green)
-![Minecraft](https://img.shields.io/badge/mc-1.21.5-blue)
+![Minecraft](https://img.shields.io/badge/minecraft-1.21.5-blue)
 ![Built With](https://img.shields.io/badge/built_with-Fabric-red)
 ![Stars](https://img.shields.io/github/stars/SiymX/breedanything?style=social)
 
 ---
 
-## 💣 Features
+## 💥 Core Features
 
-- Sneak near an Ender Pearl to *breed* with it 💖
-- Random teleportation chaos every 3 seconds
-- `/breedstop` disables teleportation
-- Sneak near TNT? You sneeze actual TNT 💥
-- TNT drops from your face and butt with a fuse
-- `/sneezestop` disables explosion
-- Full sound, particle, and laughter support 😆
+### 🐷 Flying Pigs
+- Drop an Elytra near an adult pig to spawn a **baby flying pig**
+- Baby has end-rod wings and flaps around with heart particles
+- Custom name: `Flying Bacon ✈️`
+
+### 😼 Glowing Guardian Cat
+- Drop **Glowstone Dust** near a **tamed cat** to spawn a baby guardian
+- Baby cat:
+    - Glows forever
+    - Leaves magical particles under its feet
+    - Automatically hunts nearby hostile mobs
+    - Shoots actual **fireballs** instead of biting
+    - Is **invincible** and **Godzilla-sized**
+
+### 🧨 Exploding Sneezes
+- Sneak near **TNT** and you’ll sneeze a live TNT block
+- Comes out of your face *and* butt
+- Fully animated with sound and particles
+- Use `/sneezestop` to disable
+
+### ✨ Teleport Breeding
+- Sneak near an **Ender Pearl** to breed with it
+- Every 3 seconds, you’ll randomly teleport
+- Use `/breedstop` to disable
+
+---
+
+## ⚙️ Requirements
+
+- Minecraft `1.21.5`
+- Java `17+`
+- Fabric Loader & Loom
+
+---
+
+## 🛠 Setup
+
+```bash
+git clone https://github.com/SiymX/breedanything.git
+cd breedanything
+./gradlew runClient
+```
+
 
 ---
 
